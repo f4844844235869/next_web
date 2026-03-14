@@ -17,6 +17,9 @@
     "lib": "@workspace/ui/lib",
     "ui": "@workspace/ui/components"
   },
+  "registries": {
+    "@local": "http://localhost:3000/r"
+  },
   "rtl": false,
   "menuColor": "inverted-translucent",
   "menuAccent": "subtle"

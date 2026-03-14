@@ -17,6 +17,9 @@
     "utils": "@workspace/ui/lib/utils",
     "ui": "@workspace/ui/components"
   },
+  "registries": {
+    "@local": "/r"
+  },
   "rtl": false,
   "menuColor": "inverted-translucent",
   "menuAccent": "subtle"

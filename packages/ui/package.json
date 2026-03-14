@@ -11,7 +11,8 @@
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "registry:build": "shadcn build --output ../web/public/r"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
@@ -59,7 +60,6 @@
     "./components/*": "./src/components/*.tsx",
     "./components/business": "./src/components/business/index.ts",
     "./components/business/*": "./src/components/business/*/index.tsx",
-    "./hooks/*": "./src/hooks/*.ts",
-    "./registry": "./src/registry/setup.ts"
+    "./hooks/*": "./src/hooks/*.ts"
   }
 }
